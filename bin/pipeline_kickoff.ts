@@ -4,10 +4,10 @@ import * as cdk from '@aws-cdk/core';
 import { PipelineKickoffStack } from '../lib/pipeline_kickoff-stack';
 
 const app = new cdk.App();
-new PipelineKickoffStack(app, 'JabilPipelineAppExampleId', {
+new PipelineKickoffStack(app, 'MyPipelineKickoff', {
 
   //your env variables
-  env: { account: '275332436206', region: 'us-east-1' },
+  // env: { account: '2XXXXXXXXXX2', region: 'us-east-1' },
 });
 
 app.synth();
