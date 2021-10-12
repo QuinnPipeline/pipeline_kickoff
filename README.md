@@ -45,7 +45,8 @@ Here are a few links with background information if you want to know more
         *One for your new CDK app (recommended that this repo is private)
 3. Delete the local .git and .gitignore folders in your cloned repo of pipeline_kickoff
 4. Run the following commands in your local clone of pipeline_kickoff to make it your own
-    * `git init -b main`
+    * `git init`
+    * `git branch -M main`
     * `git add -A .`
     * `git commit -m "first commit"`
     * `git remote add origin git@github.com:<your_git_user_name>/pipeline_kickoff`
